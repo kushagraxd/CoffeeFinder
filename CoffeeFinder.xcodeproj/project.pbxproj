@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+/* Begin PBXBuildFile section */
+		1A1111111111111111111111 /* CoffeeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2222222222222222222222 /* CoffeeFinderApp.swift */; };
+		1A1111111111111111111112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2222222222222222222223 /* ContentView.swift */; };
+		1A1111111111111111111113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2222222222222222222224 /* Assets.xcassets */; };
+		1A1111111111111111111114 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A2222222222222222222225 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2222222222222222222221 /* CoffeeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2222222222222222222222 /* CoffeeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoffeeFinderApp.swift"; sourceTree = "<group>"; };
+		1A2222222222222222222223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A2222222222222222222224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2222222222222222222225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3333333333333333333333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4444444444444444444440 = {
+			isa = PBXGroup;
+			children = (
+				1A4444444444444444444441 /* CoffeeFinder */,
+				1A4444444444444444444442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A4444444444444444444441 /* CoffeeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				1A2222222222222222222222 /* CoffeeFinderApp.swift */,
+				1A2222222222222222222223 /* ContentView.swift */,
+				1A2222222222222222222224 /* Assets.xcassets */,
+				1A2222222222222222222225 /* Info.plist */,
+			);
+			path = CoffeeFinder;
+			sourceTree = "<group>";
+		};
+		1A4444444444444444444442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2222222222222222222221 /* CoffeeFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5555555555555555555555 /* CoffeeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6666666666666666666666 /* Build configuration list for PBXNativeTarget "CoffeeFinder" */;
+			buildPhases = (
+				1A7777777777777777777771 /* Sources */,
+				1A7777777777777777777772 /* Frameworks */,
+				1A7777777777777777777773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeFinder;
+			productName = CoffeeFinder;
+			productReference = 1A2222222222222222222221 /* CoffeeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8888888888888888888888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1A5555555555555555555555 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A9999999999999999999999 /* Build configuration list for PBXProject "CoffeeFinder" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A4444444444444444444440;
+			productRefGroup = 1A4444444444444444444442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5555555555555555555555 /* CoffeeFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7777777777777777777773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1111111111111111111113 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7777777777777777777771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1111111111111111111111 /* CoffeeFinderApp.swift in Sources */,
+				1A1111111111111111111112 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ABBBBBBBBBBBBBBBBBBBBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CoffeeFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoffeeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABBBBBBBBBBBBBBBBBBBBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CoffeeFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoffeeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ACCCCCCCCCCCCCCCCCCCCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_PREVIEWS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ACCCCCCCCCCCCCCCCCCCCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6666666666666666666666 /* Build configuration list for PBXNativeTarget "CoffeeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABBBBBBBBBBBBBBBBBBBBB1 /* Debug */,
+				1ABBBBBBBBBBBBBBBBBBBBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9999999999999999999999 /* Build configuration list for PBXProject "CoffeeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ACCCCCCCCCCCCCCCCCCCCC1 /* Debug */,
+				1ACCCCCCCCCCCCCCCCCCCCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+
+/* End of file */
